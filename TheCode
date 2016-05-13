@@ -1,2 +1,11 @@
 #Who Wants To Be A Billionaire
 
+import time
+import random
+
+def menu():
+  print('Welcome to Who Wants To Be A Billionaire')
+  time.sleep(1)
+  print('                                    ')
+  print('You will be presented with random questions from catergories of your choice.')
+  print('                                                                 ')
