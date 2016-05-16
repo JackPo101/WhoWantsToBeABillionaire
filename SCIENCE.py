@@ -1,68 +1,68 @@
-TVq1 = input('How many wars were there before the popular British TV show, "Robot Wars", was axed?\na. 5\nb. 6\nc. 7\nd. 8\n')
-if TVq1 == 'c':
+SCq1 = input('How many planets are there in the Solar System? \na. 5\nb. 6\nc. 7\nd. 8\n')
+if SCq1 == 'd':
     print('Correct! Next question...')
 else:
     print('Wrong answer! You lose!')
     exit()
 
-TVq2 = input('In "Sherlock", Bendict Cumberbatch played Sherlock Holmes, but who played Doctor Watson?\na. Martin Freeman\nb. Brad Pitt\nc. Kevin Costner\nd. Ben Kingsley\n')
-if TVq2 == 'a':
+SCq2 = input('What is the chemical symbol for the element Silver?\na. Au\nb. Ag\nc. O\nd. Si\n')
+if SCq2 == 'b':
     print('Correct! Next question...')
 else:
     print('Wrong answer! You lose!')
     exit()
 
-TVq3 = input('How many Dragons are there in "Dragons Den"?\na. 4\nb. 5\nc. 6\nd. 7\n')
-if TVq3 == 'b':
+SCq3 = input('What pH does pure water have?\na. 4\nb. 5\nc. 6\nd. 7\n')
+if SCq3 == 'd':
     print('Correct! Next question...')
 else:
     print('Wrong answer! You lose!')
     exit()
 
-TVq4 = input('In "The Big Bang Theory", what is the middle name of Sheldon Cooper?\na. Harry\nb. Lee\nc. Trevor\nd. Austin\n')
-if TVq4 == 'b':
+SCq4 = input('The fastest-running terrestrial animal is\na. Cheetah\nb. Lion\nc. Snail\nd. Jaguar\n')
+if SCq4 == 'a':
     print('Correct! Next question...')
 else:
     print('Wrong answer! You lose!')
     exit()
 
-TVq5 = input('Jon Snow is a fictional character in what series?\na. Grimm\nb. The Tomorrow People\nc. Game of Thrones\nd. Falling Skies\n')
-if TVq5 == 'c':
+SCq5 = input('When a gas is turned into a liquid, the process is called \na. condensation\nb.  evaporation\nc. diarrhea\nd. sublimation\n')
+if SCq5 == 'a':
     print('Correct! Next question...')
 else:
     print('Wrong answer! You lose!')
     exit()
 
-TVq6 = input('Who hosts the topical celebrity panel show, "Mock the Week"?\na. Jimmy Carr\nb. Michael McIntyre\nc. Hugh Dennis\nd. Dara O Brien\n')
-if TVq6 == 'd':
+SCq6 = input('Yeast, used in making bread is a: \na.fungus\nb. plant\nc. bacteria\nd. seed\n')
+if SCq6 == 'a':
     print('Correct! Next question...')
 else:
     print('Wrong answer! You lose!')
     exit()
 
-TVq7 = input('What is the middle name of Homer Simpson?\na. Jay\nb. John\nc. Jerry\nd. James\n')
-if TVq7 == 'a':
+SCq7 = input('If a metal can be drawn into wires relatively easily it is called \na. malleable\nb. ductile\nc. extractive\nd. tactile\n')
+if SCq7 == 'b':
     print('Correct! Next question...')
 else:
     print('Wrong answer! You lose!')
     exit()
 
-TVq8 = input('What is the real name of Keith Lemon?\na. Andy Brown\nb. Leigh Francis\nc. Bud Summerfield\nd. Zac Hart\n')
-if TVq8 == 'b':
+SCq8 = input('When was aids discovered? \na. 1980\nb. 1983\nc. 2000\nd. 3800\n')
+if SCq8 == 'd':
     print('Correct! Next question...')
 else:
     print('Wrong answer! You lose!')
     exit()
 
-TVq9 = input("What is the name of Simon Cowell's baby?\na. Hal\nb. Landon\nc. Eric\nd. Jett\n")
-if TVq9 == 'c':
+SCq9 = input("The Panda belongs to the same family as that of \na. Bear\nb.  Cat\nc. Dog\nd. Rabbit\n")
+if SCq9 == 'a':
     print('Correct! Next question...')
 else:
     print('Wrong answer! You lose!')
     exit()
 
-TVq10 = input('In what year did the comedy film "Carry on Sergeant" release?\na. 1961\nb. 1953\nc. 1957\nd. 1958\n')
-if TVq10 == 'd':
+SCq10 = input(' Defect of colour blindness can be remedied by the use of \na. Concave lens\nb. Convex lens\nc. Cylindrical lens\nd. None of the above\n')
+if SCq10 == 'd':
     print('Correct! You have won £1,000,000,000!!')
 else:
     print('Wrong answer! You lose!')
