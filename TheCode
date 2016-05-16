@@ -8,7 +8,7 @@ def menu():
     print('Hi', anyName, '! Welcome to Who Wants To Be A Billionaire')
     time.sleep(1)
     print('                                                             ')
-    print('You will be presented by random questions from catergories of your choice.')
+    print('You will be presented by random questions from certain categories.')
     print('                                                           ')
     time.sleep(1)
     print('The categories are:')
