@@ -1,0 +1,63 @@
+def sportsquestions():
+  a = input('choose a question sq1, sq2, sq3, sq4, sq5, sq6, sq7, sq8, sq9, sq10')
+  if a == 'sq1':
+    ans = input('When did England win the world cup a.1966, b.1970, c.1974, d.2010')
+    if ans == 'a':
+      print('well done you got it right :-)')
+    else:
+      print('unlucky you got it wrong :-(')
+  elif a == 'sq2':
+    ans = input('How often is every world cup held every.. a. 4 years, b. year, c. 2 years, d. 8 years')
+    if ans == 'a':
+      print('well done you got it right :-)')
+    else:
+      print('unlucky you got it wrong :-(')
+  elif a == 'sq3':
+    ans = input('What is the name of England\'s F1 track.. a.Diamondstar, b.Rubygem, c.brands hatch, d.silverstone')
+    if ans == 'd':
+      print('well done you got it right :-)')
+    else:
+      print('unlucky you got it wrong :-(')
+  elif a == 'sq4':
+    ans = input('Who won the 2015 f1 world championship.. a.Hamilton, b.Alonso, c.Vettel, d.Rosberg')
+    if ans == 'a':
+      print('well done you got it right :-)')
+    else:
+      print('unlucky you got it wrong :-(')
+  elif a == 'sq5':
+    ans = input('How many  qualifying stages are there.. a. 4, b. 3, c. 2, d. 5')
+    if ans == 'b':
+      print('well done you got it right :-)')
+    else:
+      print('unlucky you got it wrong :-(')
+  elif a == 'sq6':
+    ans = input('How many under par is albatross a. 1, b. 3, c. 4, d. 5')
+    if ans == 'b':
+      print('well done you got it right :-)')
+    else:
+      print('unlucky you got it wrong :-(')
+  elif a == 'sq7':
+    ans = input('In cricket if the umpire puts both hands in the air what does it mean… A. a wicket, B. 4 runs. C. 6 runs, D. no ball')
+    if ans == 'c':
+      print('well done you got it right :-)')
+    else:
+      print('unlucky you got it wrong :-(')
+  elif a == 'sq8':
+    ans = input('How many under par is albatross a. 1, b. 3, c. 4, d. 5')
+    if ans == 'b':
+      print('well done you got it right :-)')
+    else:
+      print('unlucky you got it wrong :-(')
+  elif a == 'sq9':
+    ans = input('who has the finisher 619 a. cody rhodes, b. golddust, c. rey mysterio, d. john cena's)
+    if ans == 'c':
+      print('well done you got it right :-)')
+    else:
+      print('unlucky you got it wrong :-(')
+  elif a == 'sq9':
+    ans = input('what is cm Punks finisher.. a. GTS b. Punk rocker c. Hbomb d. German suplex')
+    if ans == 'a':
+      print('well done you got it right :-)')
+    else:
+      print('unlucky you got it wrong :-(')
+  
