@@ -55,9 +55,5 @@ def sportsquestions():
     else:
       print('unlucky you got it wrong :-(')
   elif a == 'sq9':
-    ans = input('what is cm Punks finisher.. a. GTS b. Punk rocker c. Hbomb d. German suplex')
-    if ans == 'a':
-      print('well done you got it right :-)')
-    else:
-      print('unlucky you got it wrong :-(')
+    ans = input('what is cm Punks finisher.. a. GTS b. Punk rocker c. Hbomb d.
   
