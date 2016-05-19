@@ -17,7 +17,7 @@ if SCq3 == 'd':
     print('Correct! Next question...')
 else:
     print('Wrong answer! You lose!')
-    exit()a
+    exit()
 
 SCq4 = input('Which is the longest river in the world?\na. Amazon\nb. Nile\nc. Yellow River\nd. Thames\n')
 if SCq4 == 'b':
