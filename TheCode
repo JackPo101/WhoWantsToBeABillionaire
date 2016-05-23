@@ -66,84 +66,84 @@ def menu():
         print('unlucky you got it wrong :-(')
         counter = counter + 1
     elif choice == 2:
-          ans = input('The Rugby World Cup is held every... \na. 4 years \nb. year \nc. 2 years \nd. 8 years')
-          upper = ans.upper()
-          if ans == 'a':
+        ans = input('The Rugby World Cup is held every... \na. 4 years \nb. year \nc. 2 years \nd. 8 years')
+        upper = ans.upper()
+        if ans == 'a':
             print('well done you got it right :-)')
-          else:
+        else:
             print('unlucky you got it wrong :-(')
         counter = counter + 1
-        elif choice == 3:
-          ans = input("What is the name of England's F1 track? \na.Diamondstar \nb.Rubygem \nc.brands hatch \nd.silverstone")
-          if ans == 'd':
+    elif choice == 3:
+        ans = input("What is the name of England's F1 track? \na.Diamondstar \nb.Rubygem \nc.brands hatch \nd.silverstone")
+        if ans == 'd':
             print('well done you got it right :-)')
-          else:
+        else:
             print('unlucky you got it wrong :-(')
         counter = counter + 1
-        elif choice == 4:
-          ans = input('Who won the 2015 f1 world championship.. \na.Hamilton \nb.Alonso \nc.Vettel \nd.Rosberg')
-          if ans == 'a':
+    elif choice == 4:
+        ans = input('Who won the 2015 f1 world championship.. \na.Hamilton \nb.Alonso \nc.Vettel \nd.Rosberg')
+        if ans == 'a':
             print('well done you got it right :-)')
-          else:
+        else:
             print('unlucky you got it wrong :-(')
         counter = counter + 1
-        elif choice == 5:
-          ans = input('How many  qualifying stages are there in football? \na. 4 \nb. 3 \nc. 2 \nd. 5')
-          if ans == 'b':
+    elif choice == 5:
+        ans = input('How many  qualifying stages are there in football? \na. 4 \nb. 3 \nc. 2 \nd. 5')
+        if ans == 'b':
             print('well done you got it right :-)')
-          else:
+        else:
             print('unlucky you got it wrong :-(')
         counter = counter + 1
-        elif choice == 6:
-          ans = input('How many under par is albatross? \na. 1 \nb. 3 \nc. 4 \nd. 5')
-          if ans == 'b':
+    elif choice == 6:
+        ans = input('How many under par is albatross? \na. 1 \nb. 3 \nc. 4 \nd. 5')
+        if ans == 'b':
             print('well done you got it right :-)')
-          else:
+        else:
             print('unlucky you got it wrong :-(')
         counter = counter + 1
-        elif choice == 7:
-          ans = input('In cricket if the umpire puts both hands in the air what does it mean? \nA. a wicket \nB. 4 runs \nC. 6 runs \nD. no ball')
-          if ans == 'c':
+    elif choice == 7:
+        ans = input('In cricket if the umpire puts both hands in the air what does it mean? \nA. a wicket \nB. 4 runs \nC. 6 runs \nD. no ball')
+        if ans == 'c':
             print('well done you got it right :-)')
-          else:
+        else:
             print('unlucky you got it wrong :-(')
         counter = counter + 1
-        elif choice == 8:
-          ans = input('How many under par is albatross? \na. 1 \nb. 3 \nc. 4 \nd. 5')
-          if ans == 'b':
+    elif choice == 8:
+        ans = input('How many under par is albatross? \na. 1 \nb. 3 \nc. 4 \nd. 5')
+        if ans == 'b':
             print('well done you got it right :-)')
-          else:
+        else:
             print('unlucky you got it wrong :-(')
         counter = counter + 1
-        elif choice == 9:
-          ans = input('who has the finisher 619? \na. cody rhodes \nb. golddust \nc. rey mysterio \nd. john cena')
-          if ans == 'c':
+    elif choice == 9:
+        ans = input('who has the finisher 619? \na. cody rhodes \nb. golddust \nc. rey mysterio \nd. john cena')
+        if ans == 'c':
             print('well done you got it right :-)')
-          else:
+        else:
             print('unlucky you got it wrong :-(')
         counter = counter + 1
-        elif choice == 10:
-          ans = input("What were Leicester City's odds on winning the Premier League? \nA. 200 - 1 \nB. 5,000 - 1 \nC. 500 - 1 /nD. 20 - 1")
-          if ans == 'b':
+    elif choice == 10:
+        ans = input("What were Leicester City's odds on winning the Premier League? \nA. 200 - 1 \nB. 5,000 - 1 \nC. 500 - 1 /nD. 20 - 1")
+        if ans == 'b':
             print('well done you got it right :-)')
-          else:
+        else:
             print('unlucky you got it wrong :-(')
         counter = counter + 1
-        elif choice == 11:    
-            SCq1 = input('How many planets are there in the Solar System? \na. 5\nb. 6\nc. 7\nd. 8\n')
-            if SCq1 == 'd':
-                print('Correct! Next question...')
-            else:
-                print('Wrong answer! You lose!')
-                exit()
+    elif choice == 11:    
+        SCq1 = input('How many planets are there in the Solar System? \na. 5\nb. 6\nc. 7\nd. 8\n')
+        if SCq1 == 'd':
+            print('Correct! Next question...')
+        else:
+            print('Wrong answer! You lose!')
+            exit()
         counter = counter + 1
-        elif choice == 12:
-            SCq2 = input('What is the chemical symbol for the element Silver?\na. Au\nb. Ag\nc. O\nd. Si\n')
-            if SCq2 == 'b':
-                print('Correct! Next question...')
-            else:
-                print('Wrong answer! You lose!')
-                exit()
+    elif choice == 12:
+        SCq2 = input('What is the chemical symbol for the element Silver?\na. Au\nb. Ag\nc. O\nd. Si\n')
+        if SCq2 == 'b':
+            print('Correct! Next question...')
+        else:
+            print('Wrong answer! You lose!')
+            exit()
         counter = counter + 1
         elif choice == 13:
             SCq3 = input('What pH does pure water have?\na. 4\nb. 5\nc. 6\nd. 7\n')
