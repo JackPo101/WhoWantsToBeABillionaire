@@ -38,12 +38,12 @@ else:
     print('Wrong answer! You lose!')
     exit()
     
-GKq6 = input('What percentage of a League of Legends player is salt: A-23% , B-99%, C-50%, D-0%')
+GKq6 = input('What is Sasha Grey famous from: A-Porn, B-Television, C-Film industry, D-Singing')
 upper = GKq6.upper()
-if upper == 'B':
-    print('Correct! Next question...')
+if upper == 'a':
+    print('Correct! I bet you regret getting that right anyway next question...')
 else:
-    print('Wrong answer! You lose!')
+    print('Wrong answer! Was it worth you reputation for the loss?')
     exit()
 
 GKq7 = input('Name two double landlocked countries: is it A-Kazahkstan and Switzerland, B-Lichstenstein and Uzbekistan, C-Uzbekistan and Tajikistan, D-Switzerland and Pakistan:')
