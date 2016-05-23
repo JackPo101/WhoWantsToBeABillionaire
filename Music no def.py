@@ -83,6 +83,6 @@ if choice = 50:
     Mq10 = input('Which composer owns the moniker, "The Red Priest?\na. Montiverdi\nb. Bach\nc. Boccherini\nd. Vivaldi\n')
     upper = Mq10.upper()
     if upper == 'D':
-        print('Correct! You have won £1,000,000,000!!')
+        print('Correct! Next Question...')
     else:
         print('Wrong answer! You lose!')
