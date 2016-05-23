@@ -1,5 +1,5 @@
 if choice == 71:
-    INTq1 = input('Complete the popular vine title: "Damn, ______":\na. Camern\nb. Daniel\nc. Derek\nd. Drake\n')
+    INTq1 = input('Complete the popular vine title: "Damn, ______":\na. Cameron\nb. Daniel\nc. Derek\nd. Drake\n')
     upper = INTq1.upper()
     if upper == 'B':
         print('Correct! Next question...')
