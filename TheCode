@@ -51,424 +51,243 @@ def menu():
     print('                 ')
     time.sleep(1)
     
-    def chooseQuestions():
+def chooseQuestions():
     print('The game is about to start.....')
     print('                               ')
     counter = 0
-    time.sleep(1)
     while counter != 25:
-    choice = random.randint(0,120)
-    if choice == 1:
-        ans = input('When did England win the world cup? \na.1966 \nb.1970 \nc.1974 \nd.2010')
-        if ans == 'a':
-            print('well done you got it right :-)')
-        else:
-        print('unlucky you got it wrong :-(')
-        counter = counter + 1
-    elif choice == 2:
-        ans = input('The Rugby World Cup is held every... \na. 4 years \nb. year \nc. 2 years \nd. 8 years')
-        upper = ans.upper()
-        if ans == 'a':
-            print('well done you got it right :-)')
-        else:
-            print('unlucky you got it wrong :-(')
-        counter = counter + 1
-    elif choice == 3:
-        ans = input("What is the name of England's F1 track? \na.Diamondstar \nb.Rubygem \nc.brands hatch \nd.silverstone")
-        if ans == 'd':
-            print('well done you got it right :-)')
-        else:
-            print('unlucky you got it wrong :-(')
-        counter = counter + 1
-    elif choice == 4:
-        ans = input('Who won the 2015 f1 world championship.. \na.Hamilton \nb.Alonso \nc.Vettel \nd.Rosberg')
-        if ans == 'a':
-            print('well done you got it right :-)')
-        else:
-            print('unlucky you got it wrong :-(')
-        counter = counter + 1
-    elif choice == 5:
-        ans = input('How many  qualifying stages are there in football? \na. 4 \nb. 3 \nc. 2 \nd. 5')
-        if ans == 'b':
-            print('well done you got it right :-)')
-        else:
-            print('unlucky you got it wrong :-(')
-        counter = counter + 1
-    elif choice == 6:
-        ans = input('How many under par is albatross? \na. 1 \nb. 3 \nc. 4 \nd. 5')
-        if ans == 'b':
-            print('well done you got it right :-)')
-        else:
-            print('unlucky you got it wrong :-(')
-        counter = counter + 1
-    elif choice == 7:
-        ans = input('In cricket if the umpire puts both hands in the air what does it mean? \nA. a wicket \nB. 4 runs \nC. 6 runs \nD. no ball')
-        if ans == 'c':
-            print('well done you got it right :-)')
-        else:
-            print('unlucky you got it wrong :-(')
-        counter = counter + 1
-    elif choice == 8:
-        ans = input('How many under par is albatross? \na. 1 \nb. 3 \nc. 4 \nd. 5')
-        if ans == 'b':
-            print('well done you got it right :-)')
-        else:
-            print('unlucky you got it wrong :-(')
-        counter = counter + 1
-    elif choice == 9:
-        ans = input('who has the finisher 619? \na. cody rhodes \nb. golddust \nc. rey mysterio \nd. john cena')
-        if ans == 'c':
-            print('well done you got it right :-)')
-        else:
-            print('unlucky you got it wrong :-(')
-        counter = counter + 1
-    elif choice == 10:
-        ans = input("What were Leicester City's odds on winning the Premier League? \nA. 200 - 1 \nB. 5,000 - 1 \nC. 500 - 1 /nD. 20 - 1")
-        if ans == 'b':
-            print('well done you got it right :-)')
-        else:
-            print('unlucky you got it wrong :-(')
-        counter = counter + 1
-    elif choice == 11:    
-        SCq1 = input('How many planets are there in the Solar System? \na. 5\nb. 6\nc. 7\nd. 8\n')
-        if SCq1 == 'd':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 12:
-        SCq2 = input('What is the chemical symbol for the element Silver?\na. Au\nb. Ag\nc. O\nd. Si\n')
-        if SCq2 == 'b':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 13:
-        SCq3 = input('What pH does pure water have?\na. 4\nb. 5\nc. 6\nd. 7\n')
-        if SCq3 == 'd':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 14:
-        SCq4 = input('The fastest-running terrestrial animal is\na. Cheetah\nb. Lion\nc. Snail\nd. Jaguar\n')
-        if SCq4 == 'a':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 15:
-        SCq5 = input('When a gas is turned into a liquid, the process is called \na. condensation\nb.  evaporation\nc. diarrhea\nd. sublimation\n')
-        if SCq5 == 'a':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 16:
-        SCq6 = input('Yeast, used in making bread is a: \na.fungus\nb. plant\nc. bacteria\nd. seed\n')
-        if SCq6 == 'a':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 17:
-        SCq7 = input('If a metal can be drawn into wires relatively easily it is called \na. malleable\nb. ductile\nc. extractive\nd. tactile\n')
-        if SCq7 == 'b':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 18:
-        SCq8 = input('When was aids discovered? \na. 1980\nb. 1983\nc. 2000\nd. 3800\n')
-        if SCq8 == 'd':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 19:
-        SCq9 = input("The Panda belongs to the same family as that of \na. Bear\nb.  Cat\nc. Dog\nd. Rabbit\n")
-        if SCq9 == 'a':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 20:
-        SCq10 = input(' Defect of colour blindness can be remedied by the use of \na. Concave lens\nb. Convex lens\nc. Cylindrical lens\nd. None of the above\n')
-        if SCq10 == 'd':
-            print('Correct! Next Question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 21:
-        SCq1 = input('How many planets are there in the Solar System? \na. 5\nb. 6\nc. 7\nd. 8\n')
-        if SCq1 == 'd':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 22:
-        SCq2 = input('What is the chemical symbol for the element Silver?\na. Au\nb. Ag\nc. O\nd. Si\n')
-        if SCq2 == 'b':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 23:
-        SCq3 = input('What pH does pure water have?\na. 4\nb. 5\nc. 6\nd. 7\n')
-        if SCq3 == 'd':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 24:
-        SCq4 = input('The fastest-running terrestrial animal is\na. Cheetah\nb. Lion\nc. Snail\nd. Jaguar\n')
-        if SCq4 == 'a':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 25:
-        SCq5 = input('When a gas is turned into a liquid, the process is called \na. condensation\nb.  evaporation\nc. diarrhea\nd. sublimation\n')
-        if SCq5 == 'a':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 26:
-        SCq6 = input('Yeast, used in making bread is a: \na.fungus\nb. plant\nc. bacteria\nd. seed\n')
-        if SCq6 == 'a':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 27:
-        SCq7 = input('If a metal can be drawn into wires relatively easily it is called \na. malleable\nb. ductile\nc. extractive\nd. tactile\n')
-        if SCq7 == 'b':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 28:
-        SCq8 = input('When was aids discovered? \na. 1980\nb. 1983\nc. 2000\nd. 3800\n')
-        if SCq8 == 'd':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 29:
-        SCq9 = input("The Panda belongs to the same family as that of \na. Bear\nb.  Cat\nc. Dog\nd. Rabbit\n")
-        if SCq9 == 'a':
-            print('Correct! Next question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice == 30:
-        SCq10 = input(' Defect of colour blindness can be remedied by the use of \na. Concave lens\nb. Convex lens\nc. Cylindrical lens\nd. None of the above\n')
-        if SCq10 == 'd':
-            print('Correct! Next Question...')
-        else:
-            print('Wrong answer! You lose!')
-            exit()
-        counter = counter + 1
-    elif choice = 31:
-    TVq1 = input('How many Dragons are there in "Dragons Den"?\na. 4\nb. 5\nc. 6\nd. 7\n')
-    upper = TVq1.upper()
-    if upper == 'B':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-    elif choice = 32:
-    TVq2 = input('Jon Snow is a fictional character in what series?\na. Grimm\nb. The Tomorrow People\nc. Game of Thrones\nd. Falling Skies\n')
-    upper = TVq2.upper()
-    if upper == 'C':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-    elif choice = 33:
-    TVq3 = input('In "Sherlock", Bendict Cumberbatch played Sherlock Holmes, but who played Doctor Watson?\na. Martin Freeman\nb. Brad Pitt\nc. Kevin Costner\nd. Ben Kingsley\n')
-    upper = TVq3.upper()
-    if upper == 'A':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-    elif choice = 34:
-    TVq4 = input('Who hosts the topical celebrity panel show, "Mock the Week"?\na. Jimmy Carr\nb. Michael McIntyre\nc. Hugh Dennis\nd. Dara O Brien\n')
-    upper = TVq4.upper()
-    if upper == 'D':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-    elif choice = 35:    
-    TVq5 = input("What is the name of Simon Cowell's baby?\na. Hal\nb. Landon\nc. Eric\nd. Jett\n")
-    upper = TVq5.upper()
-    if upper == 'C':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-    elif choice = 36:    
-    TVq6 = input('How many wars were there before the popular British TV show, "Robot Wars", was axed?\na. 5\nb. 6\nc. 7\nd. 8\n')
-    upper = TVq6.upper()
-    if upper == 'C':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-    elif choice = 37:
-    TVq7 = input('In "The Big Bang Theory", what is the middle name of Sheldon Cooper?\na. Harry\nb. Lee\nc. Trevor\nd. Austin\n')
-    upper = TVq7.upper()
-    if upper == 'B':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-    elif choice = 38:
-    TVq8 = input('What is the middle name of Homer Simpson?\na. Jay\nb. John\nc. Jerry\nd. James\n')
-    upper = TVq8.upper()
-    if upper == 'A':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-    elif choice = 39:
-    TVq9 = input('What is the real name of Keith Lemon?\na. Andy Brown\nb. Leigh Francis\nc. Bud Summerfield\nd. Zac Hart\n')
-    upper = TVq9.upper()
-    if upper == 'b':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-    elif choice = 40:
-    TVq10 = input('In what year did the comedy film "Carry on Sergeant" release?\na. 1961\nb. 1953\nc. 1957\nd. 1958\n')
-    upper = TVq10.upper()
-    if upper == 'd':
-        print('Correct! You have won £1,000,000,000!!')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-        if choice = 41:
-    Mq1 = input('This is the surname of a famous singer, who was part of "Queen". "Mercury" Give me their first name?\na. James\nb. Freddie\nc. Jack\nd. Alex\n')
-    upper = Mq1.upper()
-    if upper == 'B':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-if choice = 42:
-    Mq2 = input('In which year did Elvis Presley die?\na. 1975\nb. 1979\nc. 1968\nd. 1977\n')
-    upper = Mq2.upper()
-    if upper == 'D':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-if choice = 43:    
-    Mq3 = input('The musical Mamma Mia is based on the music of which band?\na. ABBA\nb. Take That\nc. Coldplay\nd. Linkin Park\n')
-    upper = Mq3.upper()
-    if upper == 'A':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-if choice = 44:
-    Mq4 = input('When were the Beatles formed?\na. 1966\nb. 1959\nc. 1961\nd. 1960\n')
-    upper = Mq4.upper()
-    if upper == 'D':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-if choice = 45:    
-    Mq5 = input('Name the trumpeter out of this selection?\na. Wycliffe Gordon\nb. Nigel Kennedy\nc. Wynton Marsalis\nd. Katherine Jenkins\n')
-    upper = Mq5.upper()
-    if upper == 'C':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-if choice = 46:    
-    Mq6 = input('Which composer introduced the clarinet to the common orchestra?\na. Schubert\nb. Mozart\nc. Wagner\nd. Weber\n')
-    upper = Mq6.upper()
-    if upper == 'B':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-if choice = 47:
-    Mq7 = input('Which composer composed, "The Carnival of the Animals"?\na. Rachmaninoff\nb. Messaien\nc. Walton\nd. Saint-Saens\n')
-    upper = Mq7.upper()
-    if upper == 'D':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-if choice = 48:
-    Mq8 = input('Kayne West is under which Rap Label?\na. G.O.O.D\nb. AfterMath\nc. LaFace Records\nd. Sony Records\n')
-    upper = Mq8.upper()
-    if upper == 'A':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-if choice = 49:
-    Mq9 = input('Which 80s group was "Big In Japan" in 1984??\na. Depeche Mode\nb. Alphaville\nc. The Cure\nd. Aerosmith\n')
-    upper = Mq9.upper()
-    if upper == 'B':
-        print('Correct! Next question...')
-    else:
-        print('Wrong answer! You lose!')
-        exit()
-
-if choice = 50:
-    Mq10 = input('Which composer owns the moniker, "The Red Priest?\na. Montiverdi\nb. Bach\nc. Boccherini\nd. Vivaldi\n')
-    upper = Mq10.upper()
-    if upper == 'D':
-        print('Correct! Next Question...')
-    else:
-        print('Wrong answer! You lose!')
-
+        choice = random.randint(0,120)
+        if choice == 1:
+            ans = input('When did England win the world cup? \na.1966 \nb.1970 \nc.1974 \nd.2010')
+            if ans == 'a':
+                print('well done you got it right :-)')
+            else:
+                print('unlucky you got it wrong :-(')
+                counter = counter + 1
+        elif choice == 2:
+            ans = input('The Rugby World Cup is held every... \na. 4 years \nb. year \nc. 2 years \nd. 8 years')
+            upper = ans.upper()
+            if ans == 'a':
+                print('well done you got it right :-)')
+            else:
+                print('unlucky you got it wrong :-(')
+            counter = counter + 1
+        elif choice == 3:
+            ans = input("What is the name of England's F1 track? \na.Diamondstar \nb.Rubygem \nc.brands hatch \nd.silverstone")
+            if ans == 'd':
+                print('well done you got it right :-)')
+            else:
+                print('unlucky you got it wrong :-(')
+            counter = counter + 1
+        elif choice == 4:
+            ans = input('Who won the 2015 f1 world championship.. \na.Hamilton \nb.Alonso \nc.Vettel \nd.Rosberg')
+            if ans == 'a':
+                print('well done you got it right :-)')
+            else:
+                print('unlucky you got it wrong :-(')
+            counter = counter + 1
+        elif choice == 5:
+            ans = input('How many  qualifying stages are there in football? \na. 4 \nb. 3 \nc. 2 \nd. 5')
+            if ans == 'b':
+                print('well done you got it right :-)')
+            else:
+                print('unlucky you got it wrong :-(')
+            counter = counter + 1
+        elif choice == 6:
+            ans = input('How many under par is albatross? \na. 1 \nb. 3 \nc. 4 \nd. 5')
+            if ans == 'b':
+                print('well done you got it right :-)')
+            else:
+                print('unlucky you got it wrong :-(')
+            counter = counter + 1
+        elif choice == 7:
+            ans = input('In cricket if the umpire puts both hands in the air what does it mean? \nA. a wicket \nB. 4 runs \nC. 6 runs \nD. no ball')
+            if ans == 'c':
+                print('well done you got it right :-)')
+            else:
+                print('unlucky you got it wrong :-(')
+            counter = counter + 1
+        elif choice == 8:
+            ans = input('How many under par is albatross? \na. 1 \nb. 3 \nc. 4 \nd. 5')
+            if ans == 'b':
+                print('well done you got it right :-)')
+            else:
+                print('unlucky you got it wrong :-(')
+            counter = counter + 1
+        elif choice == 9:
+            ans = input('who has the finisher 619? \na. cody rhodes \nb. golddust \nc. rey mysterio \nd. john cena')
+            if ans == 'c':
+                print('well done you got it right :-)')
+            else:
+                print('unlucky you got it wrong :-(')
+            counter = counter + 1
+        elif choice == 10:
+            ans = input("What were Leicester City's odds on winning the Premier League? \nA. 200 - 1 \nB. 5,000 - 1 \nC. 500 - 1 /nD. 20 - 1")
+            if ans == 'b':
+                print('well done you got it right :-)')
+            else:
+                print('unlucky you got it wrong :-(')
+            counter = counter + 1
+        elif choice == 11:    
+            SCq1 = input('How many planets are there in the Solar System? \na. 5\nb. 6\nc. 7\nd. 8\n')
+            if SCq1 == 'd':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 12:
+            SCq2 = input('What is the chemical symbol for the element Silver?\na. Au\nb. Ag\nc. O\nd. Si\n')
+            if SCq2 == 'b':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 13:
+            SCq3 = input('What pH does pure water have?\na. 4\nb. 5\nc. 6\nd. 7\n')
+            if SCq3 == 'd':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 14:
+            SCq4 = input('The fastest-running terrestrial animal is\na. Cheetah\nb. Lion\nc. Snail\nd. Jaguar\n')
+            if SCq4 == 'a':
+                    print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 15:
+            SCq5 = input('When a gas is turned into a liquid, the process is called \na. condensation\nb.  evaporation\nc. diarrhea\nd. sublimation\n')
+            if SCq5 == 'a':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 16:
+            SCq6 = input('Yeast, used in making bread is a: \na.fungus\nb. plant\nc. bacteria\nd. seed\n')
+            if SCq6 == 'a':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 17:
+            SCq7 = input('If a metal can be drawn into wires relatively easily it is called \na. malleable\nb. ductile\nc. extractive\nd. tactile\n')
+            if SCq7 == 'b':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 18:
+            SCq8 = input('When was aids discovered? \na. 1980\nb. 1983\nc. 2000\nd. 3800\n')
+            if SCq8 == 'd':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 19:
+            SCq9 = input("The Panda belongs to the same family as that of \na. Bear\nb.  Cat\nc. Dog\nd. Rabbit\n")
+            if SCq9 == 'a':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 20:
+            SCq10 = input(' Defect of colour blindness can be remedied by the use of \na. Concave lens\nb. Convex lens\nc. Cylindrical lens\nd. None of the above\n')
+            if SCq10 == 'd':
+                print('Correct! Next Question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 21:
+            SCq1 = input('How many planets are there in the Solar System? \na. 5\nb. 6\nc. 7\nd. 8\n')
+            if SCq1 == 'd':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 22:
+            SCq2 = input('What is the chemical symbol for the element Silver?\na. Au\nb. Ag\nc. O\nd. Si\n')
+            if SCq2 == 'b':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 23:
+            SCq3 = input('What pH does pure water have?\na. 4\nb. 5\nc. 6\nd. 7\n')
+            if SCq3 == 'd':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 24:
+            SCq4 = input('The fastest-running terrestrial animal is\na. Cheetah\nb. Lion\nc. Snail\nd. Jaguar\n')
+            if SCq4 == 'a':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 25:
+            SCq5 = input('When a gas is turned into a liquid, the process is called \na. condensation\nb.  evaporation\nc. diarrhea\nd. sublimation\n')
+            if SCq5 == 'a':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 26:
+            SCq6 = input('Yeast, used in making bread is a: \na.fungus\nb. plant\nc. bacteria\nd. seed\n')
+            if SCq6 == 'a':
+                    print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 27:
+            SCq7 = input('If a metal can be drawn into wires relatively easily it is called \na. malleable\nb. ductile\nc. extractive\nd. tactile\n')
+            if SCq7 == 'b':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 28:
+            SCq8 = input('When was aids discovered? \na. 1980\nb. 1983\nc. 2000\nd. 3800\n')
+            if SCq8 == 'd':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 29:
+            SCq9 = input("The Panda belongs to the same family as that of \na. Bear\nb.  Cat\nc. Dog\nd. Rabbit\n")
+            if SCq9 == 'a':
+                print('Correct! Next question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
+        elif choice == 30:
+            SCq10 = input(' Defect of colour blindness can be remedied by the use of \na. Concave lens\nb. Convex lens\nc. Cylindrical lens\nd. None of the above\n')
+            if SCq10 == 'd':
+                print('Correct! Next Question...')
+            else:
+                print('Wrong answer! You lose!')
+                exit()
+            counter = counter + 1
         
-
-
 menu()
 chooseQuestions()
