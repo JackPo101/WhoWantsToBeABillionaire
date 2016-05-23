@@ -85,4 +85,4 @@ if choice == 100:
 if upper == 'D':
     print('Correct! You have won £1,000,000,000!!')
 else:
-    print('Wrong answer! Yo lose!')
+    print('Wrong answer! You lose!')
