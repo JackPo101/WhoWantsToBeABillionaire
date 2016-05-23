@@ -74,7 +74,7 @@ def menu():
             print('unlucky you got it wrong :-(')
         counter = counter + 1
     elif choice == 3:
-        ans = input("What is the name of England's F1 track? \na.Diamondstar \nb.Rubygem \nc.brands hatch \nd.silverstone")
+        ans = input("What is the name of England's current F1 track? \na.Diamondstar \nb.Rubygem \nc.brands hatch \nd.silverstone")
         if ans == 'd':
             print('well done you got it right :-)')
         else:
@@ -186,7 +186,7 @@ def menu():
             exit()
         counter = counter + 1
     elif choice == 18:
-        SCq8 = input('When was aids discovered? \na. 1980\nb. 1983\nc. 2000\nd. 3800\n')
+        SCq8 = input('When was AIDS discovered? \na. 1980\nb. 1983\nc. 2000\nd. 3800\n')
         if SCq8 == 'd':
             print('Correct! Next question...')
         else:
