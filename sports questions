@@ -1,65 +1,73 @@
-def sportsquestions():
+
     if choice == 1:
-      ans = input('When did England win the world cup a.1966, b.1970, c.1974, d.2010')
-      if ans == 'a':
-        print('well done you got it right :-)')
+      SPq1 = input('When did England win the world cup a.1966, b.1970, c.1974, d.2010')
+      upper = SPq1.upper()
+      if upper == 'A':
+        print('Correct! Next question...')
       else:
-        print('unlucky you got it wrong :-(')
+        print('Wrong answer! You lose!')
     elif choice == 2:
-      ans = input('How often is every world cup held every.. a. 4 years, b. year, c. 2 years, d. 8 years')
-      if ans == 'a':
-        print('well done you got it right :-)')
+      SPq2 = input('How often is every world cup held every.. a. 4 years, b. year, c. 2 years, d. 8 years')
+      upper - SPq2.upper()
+      if upper == 'a':
+        print('Correct! Next question...')
       else:
-        print('unlucky you got it wrong :-(')
+        print('Wrong answer! You lose!')
     elif choice == 3:
-      ans = input('What is the name of England\'s F1 track.. a.Diamondstar, b.Rubygem, c.brands hatch, d.silverstone')
-      if ans == 'd':
-        print('well done you got it right :-)')
+      SPq3 = input('What is the name of England\'s F1 track.. a.Diamondstar, b.Rubygem, c.brands hatch, d.silverstone')
+      upper = SPq3.upper()
+      if upper == 'd':
+        print('Correct! Next question...')
       else:
-        print('unlucky you got it wrong :-(')
+        print('Wrong answer! You lose!')
     elif choice == 4:
-      ans = input('Who won the 2015 f1 world championship.. a.Hamilton, b.Alonso, c.Vettel, d.Rosberg')
-      if ans == 'a':
-        print('well done you got it right :-)')
+      SPq4 = input('Who won the 2015 f1 world championship.. a.Hamilton, b.Alonso, c.Vettel, d.Rosberg')
+      upper = SPq4.upper()
+      if SPq4 == 'a':
+        print('Correct! Next question...')
       else:
-        print('unlucky you got it wrong :-(')
+        print('Wrong answer! You lose!')
     elif choice == 5:
-      ans = input('How many  qualifying stages are there.. a. 4, b. 3, c. 2, d. 5')
-      if ans == 'b':
-        print('well done you got it right :-)')
+      SPq5 = input('How many  qualifying stages are there.. a. 4, b. 3, c. 2, d. 5')
+      upper = SPq5.upper()
+      if SPq5 == 'b':
+        print('Correct! Next question...')
       else:
-        print('unlucky you got it wrong :-(')
+        print('Wrong answer! You lose!')
     elif choice == 6:
-      ans = input('How many under par is albatross a. 1, b. 3, c. 4, d. 5')
-      if ans == 'b':
-        print('well done you got it right :-)')
+      SPq6 = input('How many under par is albatross a. 1, b. 3, c. 4, d. 5')
+      upper = SPq6.upper()
+      if SPq6 == 'b':
+        print('Correct! Next question...')
       else:
-        print('unlucky you got it wrong :-(')
+        print('Wrong answer! You lose!')
     elif choice == 7:
-      ans = input('In cricket if the umpire puts both hands in the air what does it mean… A. a wicket, B. 4 runs. C. 6 runs, D. no ball')
-      if ans == 'c':
-        print('well done you got it right :-)')
+      SPq7 = input('In cricket if the umpire puts both hands in the air what does it mean… A. a wicket, B. 4 runs. C. 6 runs, D. no ball')
+      upper = SPq7.upper()
+      if SPq7 == 'c':
+        print('Correct! Next question...')
       else:
-        print('unlucky you got it wrong :-(')
+        print('Wrong answer! You lose!')
     elif choice == 8:
-      ans = input('How many under par is albatross a. 1, b. 3, c. 4, d. 5')
-      if ans == 'b':
-        print('well done you got it right :-)')
+      SPq8 = input('How many under par is albatross a. 1, b. 3, c. 4, d. 5')
+      upper = SPq8.upper()
+      if SPq8 == 'b':
+        print('Correct! Next question...')
       else:
-        print('unlucky you got it wrong :-(')
+        print('Wrong answer! You lose!')
     elif choice == 9:
-      ans = input('who has the finisher 619 a. cody rhodes, b. golddust, c. rey mysterio, d. john cena')
-      if ans == 'c':
-        print('well done you got it right :-)')
+      SPq9 = input('who has the finisher 619 a. cody rhodes, b. golddust, c. rey mysterio, d. john cena')
+      upper = SPq9.upper()
+      if SPq9 == 'c':
+        print('Correct! Next question...')
       else:
-        print('unlucky you got it wrong :-(')
+        print('Wrong answer! You lose!')
     elif choice == 10:
-      ans = input('what is cm Punks finisher.. a. GTS b. Punk rocker c. Hbomb d. German suplex')
-      if ans == 'a':
-        print('well done you got it right :-)')
+      SPq10 = input('what is cm Punks finisher.. a. GTS b. Punk rocker c. Hbomb d. German suplex')
+      upper = SPq10.upper()
+      if SPq10 == 'a':
+        print('Correct! Next question...')
       else:
-        print('unlucky you got it wrong :-(')
+        print('Wrong answer! You lose!')
  
-  
-    
-sportsquestions()
+
