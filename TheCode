@@ -49,8 +49,12 @@ def chooseQuestions():
     print('The game is about to start.....')
     print('                               ')
     counter = 0
-    while counter != 25:
-        choice = random.randint(0,120)
+    while counter <= 12:
+        choice = random.randint(0,32)
+    while counter > 12 and counter <= 24:
+        choice = random.randint(41,80)
+    while counter == 25:
+        choice = random.randint(91,98)
         if choice == 1:
             ans = input('When did England win the world cup? \na.1966 \nb.1970 \nc.1974 \nd.2010')
             if ans == 'a':
@@ -405,7 +409,7 @@ def chooseQuestions():
                 file.close()
                 exit()
             counter = counter + 1
-        elif choice == 5:
+        elif choice == 41:
             ans = input('How many  qualifying stages are there in football? \na. 4 \nb. 3 \nc. 2 \nd. 5')
             if ans == 'b':
                 counter = counter + 1
@@ -494,7 +498,7 @@ def chooseQuestions():
                 file.close()
                 exit()
             counter = counter + 1
-        elif choice == 6:
+        elif choice == 42:
             ans = input('How many under par is albatross? \na. 1 \nb. 3 \nc. 4 \nd. 5')
             if ans == 'b':
                 counter = counter + 1
@@ -583,7 +587,7 @@ def chooseQuestions():
                 file.close()
                 exit()
             counter = counter + 1
-        elif choice == 7:
+        elif choice == 43:
             ans = input('In cricket if the umpire puts both hands in the air what does it mean? \nA. a wicket \nB. 4 runs \nC. 6 runs \nD. no ball')
             if ans == 'c':
                 counter = counter + 1
@@ -671,7 +675,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 8:
+        elif choice == 44:
             ans = input('How many under par is albatross? \na. 1 \nb. 3 \nc. 4 \nd. 5')
             if ans == 'b':
                 counter = counter + 1
@@ -759,7 +763,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 9:
+        elif choice == 45:
             ans = input('who has the finisher 619? \na. cody rhodes \nb. golddust \nc. rey mysterio \nd. john cena')
             if ans == 'c':
                 counter = counter + 1
@@ -847,7 +851,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 10:
+        elif choice == 91:
             ans = input("What were Leicester City's odds on winning the Premier League? \nA. 200 - 1 \nB. 5,000 - 1 \nC. 500 - 1 /nD. 20 - 1")
             if ans == 'b':
                 counter = counter + 1
@@ -935,7 +939,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 11:    
+        elif choice == 5:    
             SCq1 = input('How many planets are there in the Solar System? \na. 5\nb. 6\nc. 7\nd. 8\n')
             if SCq1 == 'd':
                 counter = counter + 1
@@ -1023,7 +1027,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 12:
+        elif choice == 6:
             SCq2 = input('What is the chemical symbol for the element Silver?\na. Au\nb. Ag\nc. O\nd. Si\n')
             if SCq2 == 'b':
                 counter = counter + 1
@@ -1111,7 +1115,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 13:
+        elif choice == 7:
             SCq3 = input('What pH does pure water have?\na. 4\nb. 5\nc. 6\nd. 7\n')
             if SCq3 == 'd':
                 counter = counter + 1
@@ -1199,7 +1203,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 14:
+        elif choice == 8:
             SCq4 = input('The fastest-running terrestrial animal is\na. Cheetah\nb. Lion\nc. Snail\nd. Jaguar\n')
             if SCq4 == 'a':
                 counter = counter + 1
@@ -1287,7 +1291,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 15:
+        elif choice == 46:
             SCq5 = input('When a gas is turned into a liquid, the process is called \na. condensation\nb.  evaporation\nc. diarrhea\nd. sublimation\n')
             if SCq5 == 'a':
                 counter = counter + 1
@@ -1375,7 +1379,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 16:
+        elif choice == 47:
             SCq6 = input('Yeast, used in making bread is a: \na.fungus\nb. plant\nc. bacteria\nd. seed\n')
             if SCq6 == 'a':
                 counter = counter + 1
@@ -1463,7 +1467,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 17:
+        elif choice == 48:
             SCq7 = input('If a metal can be drawn into wires relatively easily it is called \na. malleable\nb. ductile\nc. extractive\nd. tactile\n')
             if SCq7 == 'b':
                 counter = counter + 1
@@ -1551,7 +1555,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 18:
+        elif choice == 49:
             SCq8 = input('When was aids discovered? \na. 1980\nb. 1983\nc. 2000\nd. 3800\n')
             if SCq8 == 'd':
                 counter = counter + 1
@@ -1639,7 +1643,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 19:
+        elif choice == 50:
             SCq9 = input("The Panda belongs to the same family as that of \na. Bear\nb.  Cat\nc. Dog\nd. Rabbit\n")
             if SCq9 == 'a':
                 counter = counter + 1
@@ -1727,7 +1731,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 20:
+        elif choice == 92:
             SCq10 = input(' Defect of colour blindness can be remedied by the use of \na. Concave lens\nb. Convex lens\nc. Cylindrical lens\nd. None of the above\n')
             if SCq10 == 'd':
                 counter = counter + 1
@@ -1815,7 +1819,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 21:
+        elif choice == 9:
             SCq1 = input('How many planets are there in the Solar System? \na. 5\nb. 6\nc. 7\nd. 8\n')
             if SCq1 == 'd':
                 counter = counter + 1
@@ -1903,7 +1907,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 22:
+        elif choice == 10:
             SCq2 = input('What is the chemical symbol for the element Silver?\na. Au\nb. Ag\nc. O\nd. Si\n')
             if SCq2 == 'b':
                 counter = counter + 1
@@ -1991,7 +1995,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 23:
+        elif choice == 11:
             SCq3 = input('What pH does pure water have?\na. 4\nb. 5\nc. 6\nd. 7\n')
             if SCq3 == 'd':
                 counter = counter + 1
@@ -2079,7 +2083,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 24:
+        elif choice == 12:
             SCq4 = input('The fastest-running terrestrial animal is\na. Cheetah\nb. Lion\nc. Snail\nd. Jaguar\n')
             if SCq4 == 'a':
                 counter = counter + 1
@@ -2167,7 +2171,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 25:
+        elif choice == 51:
             SCq5 = input('When a gas is turned into a liquid, the process is called \na. condensation\nb.  evaporation\nc. diarrhea\nd. sublimation\n')
             if SCq5 == 'a':
                 counter = counter + 1
@@ -2255,7 +2259,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 26:
+        elif choice == 52:
             SCq6 = input('Yeast, used in making bread is a: \na.fungus\nb. plant\nc. bacteria\nd. seed\n')
             if SCq6 == 'a':
                 counter = counter + 1
@@ -2343,7 +2347,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 27:
+        elif choice == 53:
             SCq7 = input('If a metal can be drawn into wires relatively easily it is called \na. malleable\nb. ductile\nc. extractive\nd. tactile\n')
             if SCq7 == 'b':
                 print('Correct! Next question...')
@@ -2430,7 +2434,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 28:
+        elif choice == 54:
             SCq8 = input('When was Aids discovered? \na. 1980\nb. 1983\nc. 2000\nd. 3800\n')
             if SCq8 == 'd':
                 counter = counter + 1
@@ -2518,7 +2522,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 29:
+        elif choice == 55:
             SCq9 = input("The Panda belongs to the same family as that of \na. Bear\nb.  Cat\nc. Dog\nd. Rabbit\n")
             if SCq9 == 'a':
                 counter = counter + 1
@@ -2606,7 +2610,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 30:
+        elif choice == 93:
             SCq10 = input(' Defect of colour blindness can be remedied by the use of \na. Concave lens\nb. Convex lens\nc. Cylindrical lens\nd. None of the above\n')
             if SCq10 == 'd':
                 counter = counter + 1
@@ -2694,7 +2698,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 31:
+        elif choice == 13:
             TVq1 = input('How many Dragons are there in "Dragons Den"?\na. 4\nb. 5\nc. 6\nd. 7\n')
             upper = TVq1.upper()
             if upper == 'B':
@@ -2784,7 +2788,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 32:
+        elif choice == 14:
             TVq2 = input('Jon Snow is a fictional character in what series?\na. Grimm\nb. The Tomorrow People\nc. Game of Thrones\nd. Falling Skies\n')
             upper = TVq2.upper()
             if upper == 'C':
@@ -2874,7 +2878,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 33:
+        elif choice == 15:
             TVq3 = input('In "Sherlock", Bendict Cumberbatch played Sherlock Holmes, but who played Doctor Watson?\na. Martin Freeman\nb. Brad Pitt\nc. Kevin Costner\nd. Ben Kingsley\n')
             upper = TVq3.upper()
             if upper == 'A':
@@ -2964,7 +2968,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 34:
+        elif choice == 16:
             TVq4 = input('Who hosts the topical celebrity panel show, "Mock the Week"?\na. Jimmy Carr\nb. Michael McIntyre\nc. Hugh Dennis\nd. Dara O Brien\n')
             upper = TVq4.upper()
             if upper == 'D':
@@ -3054,7 +3058,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 35:    
+        elif choice == 56:    
             TVq5 = input("What is the name of Simon Cowell's baby?\na. Hal\nb. Landon\nc. Eric\nd. Jett\n")
             upper = TVq5.upper()
             if upper == 'C':
@@ -3144,7 +3148,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 36:    
+        elif choice == 57:    
             TVq6 = input('How many wars were there before the popular British TV show, "Robot Wars", was axed?\na. 5\nb. 6\nc. 7\nd. 8\n')
             upper = TVq6.upper()
             if upper == 'C':
@@ -3234,7 +3238,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 37:
+        elif choice == 58:
             TVq7 = input('In "The Big Bang Theory", what is the middle name of Sheldon Cooper?\na. Harry\nb. Lee\nc. Trevor\nd. Austin\n')
             upper = TVq7.upper()
             if upper == 'B':
@@ -3324,7 +3328,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 38:
+        elif choice == 59:
             TVq8 = input('What is the middle name of Homer Simpson?\na. Jay\nb. John\nc. Jerry\nd. James\n')
             upper = TVq8.upper()
             if upper == 'A':
@@ -3414,7 +3418,7 @@ def chooseQuestions():
                 file.close()
                 exit()
     
-        elif choice == 39:
+        elif choice == 60:
             TVq9 = input('What is the real name of Keith Lemon?\na. Andy Brown\nb. Leigh Francis\nc. Bud Summerfield\nd. Zac Hart\n')
             upper = TVq9.upper()
             if upper == 'B':
@@ -3504,7 +3508,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 40:
+        elif choice == 94:
             TVq10 = input('In what year did the comedy film "Carry on Sergeant" release?\na. 1961\nb. 1953\nc. 1957\nd. 1958\n')
             upper = TVq10.upper()
             if upper == 'D':
@@ -3593,7 +3597,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 41:
+        elif choice == 17:
             Mq1 = input('This is the surname of a famous singer, who was part of "Queen". "Mercury" Give me their first name?\na. James\nb. Freddie\nc. Jack\nd. Alex\n')
             upper = Mq1.upper()
             if upper == 'B':
@@ -3683,7 +3687,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 42:
+        elif choice == 18:
             Mq2 = input('In which year did Elvis Presley die?\na. 1975\nb. 1979\nc. 1968\nd. 1977\n')
             upper = Mq2.upper()
             if upper == 'D':
@@ -3773,7 +3777,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 43:    
+        elif choice == 19:    
             Mq3 = input('The musical Mamma Mia is based on the music of which band?\na. ABBA\nb. Take That\nc. Coldplay\nd. Linkin Park\n')
             upper = Mq3.upper()
             if upper == 'A':
@@ -3863,7 +3867,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 44:
+        elif choice == 20:
             Mq4 = input('When were the Beatles formed?\na. 1966\nb. 1959\nc. 1961\nd. 1960\n')
             upper = Mq4.upper()
             if upper == 'D':
@@ -3953,7 +3957,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 45:    
+        elif choice == 61:    
             Mq5 = input('Name the trumpeter out of this selection?\na. Wycliffe Gordon\nb. Nigel Kennedy\nc. Wynton Marsalis\nd. Katherine Jenkins\n')
             upper = Mq5.upper()
             if upper == 'C':
@@ -4043,7 +4047,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 46:    
+        elif choice == 62:    
             Mq6 = input('Which composer introduced the clarinet to the common orchestra?\na. Schubert\nb. Mozart\nc. Wagner\nd. Weber\n')
             upper = Mq6.upper()
             if upper == 'B':
@@ -4133,7 +4137,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 47:
+        elif choice == 63:
             Mq7 = input('Which composer composed, "The Carnival of the Animals"?\na. Rachmaninoff\nb. Messaien\nc. Walton\nd. Saint-Saens\n')
             upper = Mq7.upper()
             if upper == 'D':
@@ -4223,7 +4227,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 48:
+        elif choice == 64:
             Mq8 = input('Kayne West is under which Rap Label?\na. G.O.O.D\nb. AfterMath\nc. LaFace Records\nd. Sony Records\n')
             upper = Mq8.upper()
             if upper == 'A':
@@ -4313,7 +4317,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 49:
+        elif choice == 65:
             Mq9 = input('Which 80s group was "Big In Japan" in 1984??\na. Depeche Mode\nb. Alphaville\nc. The Cure\nd. Aerosmith\n')
             upper = Mq9.upper()
             if upper == 'B':
@@ -4403,7 +4407,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 50:
+        elif choice == 95:
             Mq10 = input('Which composer owns the moniker, "The Red Priest?\na. Montiverdi\nb. Bach\nc. Boccherini\nd. Vivaldi\n')
             upper = Mq10.upper()
             if upper == 'D':
@@ -4493,7 +4497,7 @@ def chooseQuestions():
                 file.close()
                 exit()
         
-        elif choice == 61:
+        elif choice == 21:
             CsQ1 = input('What is FF in Denary? \n A. 200 \n B. 125 \n C. 266 \n D. 255')
             if CsQ1 == 'd':
                 counter = counter + 1
@@ -4581,7 +4585,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 62:
+        elif choice == 22:
             CsQ2 = input('What type of touchscreen is used in Smartphones? \n A. Capacitive \n B. Completive \n C. Resisitive \n D. Creative')
             if CsQ2 == 'a':
                 counter = counter + 1
@@ -4669,7 +4673,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 63:
+        elif choice == 23:
             CsQ3 = input('Who invented the email? \n A. Steven Parkins \n B. Shiva Ayyadurai \n C. Henry Spinefield \n D. Lawrence Thwait')
             if CsQ3 == 'b':
                 counter = counter + 1
@@ -4757,7 +4761,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 64:
+        elif choice == 24:
             CsQ4 = input('What was the full name of Steve Jobs? \n A. Steve Anthony Jobs \n B. Steven Charles Jobs \n C. Steve Jonathan Jobs \n D. Steve Paul Jobs')
             if CsQ4 == 'd':
                 counter = counter + 1
@@ -4845,7 +4849,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 65:
+        elif choice == 66:
             CsQ5 = input('Who is the founder of Samsung? \n A. Cameron Li \n B. Xi Chang-Qu \n C. Lee Byung-chul \n D. Li Cing-piu')
             if CsQ5 == 'c':
                 counter = counter + 1
@@ -4933,7 +4937,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 66:
+        elif choice == 67:
             CsQ6 = input('Which programming language is used to create most IOS applications? \n A. Java \n B. C++ \n C. Ruby \n D. Xcode')
             if CsQ6 == 'd':
                 counter = counter + 1
@@ -5021,7 +5025,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 67:
+        elif choice == 68:
             CsQ7 = input('What does RAM stand for? \n A. Recall-Automated Media \n B. Random-Access Media \n C. Random-Access Memory \n D. Re-Alternated Memory')
             if CsQ7 == 'c':
                 counter = counter + 1
@@ -5109,7 +5113,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 68:
+        elif choice == 69:
             CsQ8 = input('How many emails are sent daily? \n A. Just over 200 Million \n B. Just over 100 Billion \n C. Just over 5 Billion  \n D. Just over 500 Billion')
             if CsQ8 == 'b':
                 counter = counter + 1
@@ -5197,7 +5201,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 69:
+        elif choice == 70:
             CsQ9 = input('Which technology company creates the Xbox? \n A. Microsoft \n B. Sony \n C. Logistics Inc \n D. Samsung')
             if CsQ9 == 'a':
                 counter = counter + 1
@@ -5285,7 +5289,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 70:
+        elif choice == 96:
             CsQ10 = input('What was Google originally called? \n A. NetLink \n B. Bingo! \n C. Googleee \n D. BackRub')
             if CsQ10 == 'd':
                 counter = counter + 1
@@ -5373,7 +5377,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 71:
+        elif choice == 25:
             INTq1 = input('Complete the popular vine title: "Damn, ______":\na. Cameron\nb. Daniel\nc. Derek\nd. Drake\n')
             upper = INTq1.upper()
             if upper == 'B':
@@ -5462,7 +5466,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 72:
+        elif choice == 26:
             INTq2 = input('Who is the most subscribed YouTuber on the website (excluding music channels)?\na. jacksepticeye\nb. Markiplier\nc. PewDiePie\nd. Smosh\n')
             upper = INTq2.upper()
             if upper == 'C':
@@ -5551,7 +5555,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 73:
+        elif choice == 27:
             INTq3 = input('Which of these is the title of a series of YouTube videos featuring animated stickman characters in many random clips?\na. qwer movies\nb. asdf movies\nc. zxcv movies\nd. 1qaz movies\n')
             upper = INTq3.upper()
             if upper == 'B':
@@ -5640,7 +5644,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 74:
+        elif choice == 28:
             INTq4 = input('"Bonnie", "Chica", and "Foxy" come from which extremely popular 2014 video game?\na. Undertale\nb. Skyrim\nc. Destiny\nd. Five Nights at Freddys\n')
             upper = INTq4.upper()
             if upper == 'D':
@@ -5729,7 +5733,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 75:
+        elif choice == 71:
             INTq5 = input('What does the internet meme "MLG" stand for?\na. Major League Gaming\nb. Major League Grandfinals\nc. Major League Green\nd. Meme Lord Gandalf\n')
             upper = INTq5.upper()
             if upper == 'A':
@@ -5818,7 +5822,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 76:
+        elif choice == 72:
             INTq6 = input('Who recieved "a small loan of a million dollars" from their father, thus creating a worldwide internet meme?\na. David Cameron\nb. Donald Trump\nc. Hillary Clinton\nd. Boris Johnson\n')
             if INTq6 == 'c':
                 counter = counter + 1
@@ -5906,7 +5910,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 77:
+        elif choice == 73:
             INTq7 = input('Complete the name of the popular meme: Bad Luck, ____\na. Brian\nb. Barry\nc. Bob\nd. Banter\n')
             upper = INTq7.uppper()
             if upper == 'A':
@@ -5995,7 +5999,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 78:
+        elif choice == 74:
             INTq8 = input('What is the name of the YouTube channel hosted by "Keemstar" that deals with "Drama"?\na. YouTubeDrama\nb. DramaAlert\nc. DramaKeem\nd. KeemstarDaily\n')
             upper = INTq8.uppper()
             if upper == 'B':
@@ -6084,7 +6088,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 79:
+        elif choice == 75:
             INTq9 = input('"Overly Attached Girlfriend" has her own YouTube channel. What is it called?\na. Leia\nb. OverlyAttachedGirlfriend\nc. OAGYouTube\nd. Laina\n')
             upper = INTq9.uppper()
             if upper == 'D':
@@ -6173,7 +6177,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 80:
+        elif choice == 97:
             INTq10 = input('scottgames.com, the website of the creator of the viral game, "Five Nights at Freddys", updated not long ago with a teaser to a new spin-off game called "Sister Location".\nWhat is the name of the animatronic featured in the teaser?\na. Baby\nb. Bidybab\nc. Ballora\nd. Ennard\n')
             upper = INTq10.uppper()
             if upper == 'A':
@@ -6262,7 +6266,7 @@ def chooseQuestions():
                 file.write(scoreText)
                 file.close()
                 exit()
-        elif choice == 91:
+        elif choice == 29:
             ALq1 = input('What is the second book of the Old Testament?\na. James\nb. Exodus\nc. Acts\nd. Revelation\n')
             upper = ALq1.upper()
             if upper == 'B':
@@ -6352,7 +6356,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 92:
+        elif choice == 30:
             ALq2 = input('Complete the title of this book. "Down and out in..?\na. Detroit and New York\nb. London and Manchester\nc. Delhi and Paris\nd. Paris and London\n')
             upper = ALq2.upper()
             if upper == 'D':
@@ -6442,7 +6446,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 93:
+        elif choice == 31:
             ALq3 = input('In what wood does Winnie the Pooh live?\na. Hundred Acre Wood\nb. Endor\nc. Forbidden Forest\nd. The forest of Arden\n')
             upper = ALq3.upper()
             if upper == 'A':
@@ -6532,7 +6536,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 94:
+        elif choice == 32:
             ALq4 = input('How many years does the toad in "Wind in the Willows" receive in jail?\na. 10\nb. 50\nc. 15\nd. 20\n')
             upper = ALq4.upper()
             if upper == 'D':
@@ -6622,7 +6626,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 95:
+        elif choice == 76:
             ALq5 = input('Who is the god of wine and drink in greek mythology?\na. Zeus\nb. Echo\nc. Dionysus\nd. Nike\n')
             upper = ALq5.upper()
             if upper == 'C':
@@ -6712,7 +6716,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 96:
+        elif choice == 77:
             ALq6 = input('What was the street address of Sherlock Holmes?\na. 343B Baker Street\nb. 221B Baker Street\nc. 1A Baker Street\nd. 211B Baker Street\n')
             upper = ALq6.upper()
             if upper == 'B':
@@ -6802,7 +6806,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 97:
+        elif choice == 78:
             ALq7 = input('Which London road is associated with book sellers?\na. Edgeware Road\nb. Gresham Street\nc. Fenchurch Street\nd. Charing Cross Road\n')
             upper = ALq7.upper()
             if upper == 'D':
@@ -6892,7 +6896,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 98:
+        elif choice == 79:
             ALq8 = input(' "Call me Ishmael" is the opening line of what novel?\na. Moby Dick\nb. Persuasion\nc. The Scarlet Letter\nd. Oliver Twist\n')
             upper = ALq8.upper()
             if upper == 'A':
@@ -6982,7 +6986,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 99:
+        elif choice == 80:
             ALq9 = input('The uniforms of what Italian military force were originally designed by Michelangelo?\na. Condottieri\nb. Vatican Swiss Guards\nc. Swiss Mercenaries\nd. Italian National Guard\n')
             upper = ALq9.upper()
             if upper == 'B':
@@ -7072,7 +7076,7 @@ def chooseQuestions():
                 file.close()
                 exit()
 
-        elif choice == 100:
+        elif choice == 98:
             ALq10 = input('What 19th century French impressionist painted The Boating Party?\na. Degas\nb. Manet\nc. Pissaro\nd. Renoir\n')
             upper = ALq10.upper()
             if upper == 'D':
