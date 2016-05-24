@@ -133,6 +133,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('unlucky you got it wrong :-(')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 2:
             ans = input('The Rugby World Cup is held every... \na. 4 years \nb. year \nc. 2 years \nd. 8 years')
@@ -217,6 +222,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('unlucky you got it wrong :-(')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 3:
             ans = input("What is the name of England's F1 track? \na.Diamondstar \nb.Rubygem \nc.brands hatch \nd.silverstone")
@@ -300,6 +310,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('unlucky you got it wrong :-(')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 4:
             ans = input('Who won the 2015 f1 world championship.. \na.Hamilton \nb.Alonso \nc.Vettel \nd.Rosberg')
@@ -383,6 +398,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('unlucky you got it wrong :-(')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
             counter = counter + 1
         elif choice == 5:
@@ -467,6 +487,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('unlucky you got it wrong :-(')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
             counter = counter + 1
         elif choice == 6:
@@ -551,6 +576,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('unlucky you got it wrong :-(')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
             counter = counter + 1
         elif choice == 7:
@@ -635,6 +665,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('unlucky you got it wrong :-(')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 8:
             ans = input('How many under par is albatross? \na. 1 \nb. 3 \nc. 4 \nd. 5')
@@ -718,6 +753,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('unlucky you got it wrong :-(')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 9:
             ans = input('who has the finisher 619? \na. cody rhodes \nb. golddust \nc. rey mysterio \nd. john cena')
@@ -801,6 +841,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('unlucky you got it wrong :-(')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 10:
             ans = input("What were Leicester City's odds on winning the Premier League? \nA. 200 - 1 \nB. 5,000 - 1 \nC. 500 - 1 /nD. 20 - 1")
@@ -884,6 +929,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('unlucky you got it wrong :-(')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 11:    
             SCq1 = input('How many planets are there in the Solar System? \na. 5\nb. 6\nc. 7\nd. 8\n')
@@ -967,6 +1017,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 12:
             SCq2 = input('What is the chemical symbol for the element Silver?\na. Au\nb. Ag\nc. O\nd. Si\n')
@@ -1050,6 +1105,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 13:
             SCq3 = input('What pH does pure water have?\na. 4\nb. 5\nc. 6\nd. 7\n')
@@ -1133,6 +1193,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 14:
             SCq4 = input('The fastest-running terrestrial animal is\na. Cheetah\nb. Lion\nc. Snail\nd. Jaguar\n')
@@ -1216,6 +1281,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 15:
             SCq5 = input('When a gas is turned into a liquid, the process is called \na. condensation\nb.  evaporation\nc. diarrhea\nd. sublimation\n')
@@ -1299,6 +1369,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 16:
             SCq6 = input('Yeast, used in making bread is a: \na.fungus\nb. plant\nc. bacteria\nd. seed\n')
@@ -1382,6 +1457,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 17:
             SCq7 = input('If a metal can be drawn into wires relatively easily it is called \na. malleable\nb. ductile\nc. extractive\nd. tactile\n')
@@ -1465,6 +1545,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 18:
             SCq8 = input('When was aids discovered? \na. 1980\nb. 1983\nc. 2000\nd. 3800\n')
@@ -1548,6 +1633,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 19:
             SCq9 = input("The Panda belongs to the same family as that of \na. Bear\nb.  Cat\nc. Dog\nd. Rabbit\n")
@@ -1631,6 +1721,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 20:
             SCq10 = input(' Defect of colour blindness can be remedied by the use of \na. Concave lens\nb. Convex lens\nc. Cylindrical lens\nd. None of the above\n')
@@ -1714,6 +1809,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 21:
             SCq1 = input('How many planets are there in the Solar System? \na. 5\nb. 6\nc. 7\nd. 8\n')
@@ -1797,6 +1897,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 22:
             SCq2 = input('What is the chemical symbol for the element Silver?\na. Au\nb. Ag\nc. O\nd. Si\n')
@@ -1880,6 +1985,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 23:
             SCq3 = input('What pH does pure water have?\na. 4\nb. 5\nc. 6\nd. 7\n')
@@ -1963,6 +2073,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 24:
             SCq4 = input('The fastest-running terrestrial animal is\na. Cheetah\nb. Lion\nc. Snail\nd. Jaguar\n')
@@ -2046,6 +2161,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 25:
             SCq5 = input('When a gas is turned into a liquid, the process is called \na. condensation\nb.  evaporation\nc. diarrhea\nd. sublimation\n')
@@ -2129,6 +2249,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 26:
             SCq6 = input('Yeast, used in making bread is a: \na.fungus\nb. plant\nc. bacteria\nd. seed\n')
@@ -2212,6 +2337,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 27:
             SCq7 = input('If a metal can be drawn into wires relatively easily it is called \na. malleable\nb. ductile\nc. extractive\nd. tactile\n')
@@ -2294,6 +2424,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 28:
             SCq8 = input('When was Aids discovered? \na. 1980\nb. 1983\nc. 2000\nd. 3800\n')
@@ -2377,6 +2512,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 29:
             SCq9 = input("The Panda belongs to the same family as that of \na. Bear\nb.  Cat\nc. Dog\nd. Rabbit\n")
@@ -2460,6 +2600,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 30:
             SCq10 = input(' Defect of colour blindness can be remedied by the use of \na. Concave lens\nb. Convex lens\nc. Cylindrical lens\nd. None of the above\n')
@@ -2543,6 +2688,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 31:
             TVq1 = input('How many Dragons are there in "Dragons Den"?\na. 4\nb. 5\nc. 6\nd. 7\n')
@@ -2627,6 +2777,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 32:
@@ -2712,6 +2867,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 33:
@@ -2797,6 +2957,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 34:
@@ -2882,6 +3047,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 35:    
@@ -2967,6 +3137,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 36:    
@@ -3052,6 +3227,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 37:
@@ -3137,6 +3317,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 38:
@@ -3222,6 +3407,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
     
         elif choice == 39:
@@ -3307,6 +3497,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 40:
@@ -3392,6 +3587,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 41:
             Mq1 = input('This is the surname of a famous singer, who was part of "Queen". "Mercury" Give me their first name?\na. James\nb. Freddie\nc. Jack\nd. Alex\n')
@@ -3476,6 +3676,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 42:
@@ -3561,6 +3766,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 43:    
@@ -3646,6 +3856,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 44:
@@ -3731,6 +3946,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 45:    
@@ -3816,6 +4036,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 46:    
@@ -3901,6 +4126,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 47:
@@ -3986,6 +4216,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 48:
@@ -4071,6 +4306,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 49:
@@ -4156,6 +4396,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 50:
@@ -4241,7 +4486,13 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
+        
         elif choice == 61:
             CsQ1 = input('What is FF in Denary? \n A. 200 \n B. 125 \n C. 266 \n D. 255')
             if CsQ1 == 'd':
@@ -4324,6 +4575,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong Answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 62:
             CsQ2 = input('What type of touchscreen is used in Smartphones? \n A. Capacitive \n B. Completive \n C. Resisitive \n D. Creative')
@@ -4407,6 +4663,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Unlucky, wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 63:
             CsQ3 = input('Who invented the email? \n A. Steven Parkins \n B. Shiva Ayyadurai \n C. Henry Spinefield \n D. Lawrence Thwait')
@@ -4490,6 +4751,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Unlucky, wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 64:
             CsQ4 = input('What was the full name of Steve Jobs? \n A. Steve Anthony Jobs \n B. Steven Charles Jobs \n C. Steve Jonathan Jobs \n D. Steve Paul Jobs')
@@ -4573,6 +4839,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Unlucky, wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 65:
             CsQ5 = input('Who is the founder of Samsung? \n A. Cameron Li \n B. Xi Chang-Qu \n C. Lee Byung-chul \n D. Li Cing-piu')
@@ -4656,6 +4927,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Unlucky, wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 66:
             CsQ6 = input('Which programming language is used to create most IOS applications? \n A. Java \n B. C++ \n C. Ruby \n D. Xcode')
@@ -4739,6 +5015,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Unlucky, wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 67:
             CsQ7 = input('What does RAM stand for? \n A. Recall-Automated Media \n B. Random-Access Media \n C. Random-Access Memory \n D. Re-Alternated Memory')
@@ -4822,6 +5103,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Unlucky, wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 68:
             CsQ8 = input('How many emails are sent daily? \n A. Just over 200 Million \n B. Just over 100 Billion \n C. Just over 5 Billion  \n D. Just over 500 Billion')
@@ -4905,6 +5191,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Unlucky, wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 69:
             CsQ9 = input('Which technology company creates the Xbox? \n A. Microsoft \n B. Sony \n C. Logistics Inc \n D. Samsung')
@@ -4988,6 +5279,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Unlucky, wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 70:
             CsQ10 = input('What was Google originally called? \n A. NetLink \n B. Bingo! \n C. Googleee \n D. BackRub')
@@ -5071,6 +5367,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Unlucky, wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 71:
             INTq1 = input('Complete the popular vine title: "Damn, ______":\na. Cameron\nb. Daniel\nc. Derek\nd. Drake\n')
@@ -5155,6 +5456,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 72:
             INTq2 = input('Who is the most subscribed YouTuber on the website (excluding music channels)?\na. jacksepticeye\nb. Markiplier\nc. PewDiePie\nd. Smosh\n')
@@ -5239,6 +5545,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 73:
             INTq3 = input('Which of these is the title of a series of YouTube videos featuring animated stickman characters in many random clips?\na. qwer movies\nb. asdf movies\nc. zxcv movies\nd. 1qaz movies\n')
@@ -5323,6 +5634,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 74:
             INTq4 = input('"Bonnie", "Chica", and "Foxy" come from which extremely popular 2014 video game?\na. Undertale\nb. Skyrim\nc. Destiny\nd. Five Nights at Freddys\n')
@@ -5407,6 +5723,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 75:
             INTq5 = input('What does the internet meme "MLG" stand for?\na. Major League Gaming\nb. Major League Grandfinals\nc. Major League Green\nd. Meme Lord Gandalf\n')
@@ -5491,6 +5812,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 76:
             INTq6 = input('Who recieved "a small loan of a million dollars" from their father, thus creating a worldwide internet meme?\na. David Cameron\nb. Donald Trump\nc. Hillary Clinton\nd. Boris Johnson\n')
@@ -5574,6 +5900,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 77:
             INTq7 = input('Complete the name of the popular meme: Bad Luck, ____\na. Brian\nb. Barry\nc. Bob\nd. Banter\n')
@@ -5658,6 +5989,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 78:
             INTq8 = input('What is the name of the YouTube channel hosted by "Keemstar" that deals with "Drama"?\na. YouTubeDrama\nb. DramaAlert\nc. DramaKeem\nd. KeemstarDaily\n')
@@ -5742,6 +6078,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 79:
             INTq9 = input('"Overly Attached Girlfriend" has her own YouTube channel. What is it called?\na. Leia\nb. OverlyAttachedGirlfriend\nc. OAGYouTube\nd. Laina\n')
@@ -5826,6 +6167,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 80:
             INTq10 = input('scottgames.com, the website of the creator of the viral game, "Five Nights at Freddys", updated not long ago with a teaser to a new spin-off game called "Sister Location".\nWhat is the name of the animatronic featured in the teaser?\na. Baby\nb. Bidybab\nc. Ballora\nd. Ennard\n')
@@ -5910,6 +6256,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         elif choice == 91:
             ALq1 = input('What is the second book of the Old Testament?\na. James\nb. Exodus\nc. Acts\nd. Revelation\n')
@@ -5994,6 +6345,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 92:
@@ -6079,6 +6435,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 93:
@@ -6164,6 +6525,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 94:
@@ -6249,6 +6615,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 95:
@@ -6334,6 +6705,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 96:
@@ -6419,6 +6795,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 97:
@@ -6504,6 +6885,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 98:
@@ -6589,6 +6975,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 99:
@@ -6674,6 +7065,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
 
         elif choice == 100:
@@ -6759,6 +7155,11 @@ def chooseQuestions():
                     print('You now have', money, '!')
             else:
                 print('Wrong answer! You lose!')
+                print("You have won ", money)
+                file = open("BillionaireScores.txt", "a")
+                scoreText = (anyName + " won" + str(money) + "\n")
+                file.write(scoreText)
+                file.close()
                 exit()
         
 menu()
